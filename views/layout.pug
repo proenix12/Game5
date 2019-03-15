@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    link(rel="shortcut icon" type="image/png" href="/images/game_boy.png")
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/socket.io/socket.io.js')
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    script(src="/javascripts/functions.js")
+  body
+    header(class="navigation-header")
+      nav(class="wrap navigation-container")
+        div(class="logo")
+          a(href="/")
+            img(alt="logo" src="")
+        ul(class="navigation-ul-menu")
+          li
+            a(href="")
+              span test
+          li
+            a(href="")
+              span test
+          li
+            a(href="")
+              span test
+        ul(class="navigation-ul-user-menu")
+          li
+            a(href="")
+              span test
+    block content
